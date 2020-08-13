@@ -1,0 +1,39 @@
+{
+  "name": "basic-api",
+  "version": "1.0.0",
+  "description": "Node Basic Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flimasi/node-basic-api.git"
+  },
+  "keywords": [
+    "node",
+    "basic",
+    "api"
+  ],
+  "author": "felipe de lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flimasi/node-basic-api/issues"
+  },
+  "homepage": "https://github.com/flimasi/node-basic-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "eslint": "^7.6.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "jest": "^26.4.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
